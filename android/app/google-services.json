@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "415975807381",
+    "project_id": "weareeven-c755d",
+    "storage_bucket": "weareeven-c755d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415975807381:android:23024b35fecfd90a4f3e9c",
+        "android_client_info": {
+          "package_name": "com.flutterflow.finwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415975807381-69nt55q04eq3gle8qee24q4n97cp19ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzLiEnQPuP9Bu41cZqOoiDmioU2tYvdXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415975807381-69nt55q04eq3gle8qee24q4n97cp19ru.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "415975807381-7l77da12d0inbve3k33pdofojno4e6si.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutterflow.finwallet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

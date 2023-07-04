@@ -1,0 +1,46 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Activities",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "groupRef",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createTime",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "transactions",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "user",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "transactionTime",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "transactions",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "budgetAssociated",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "transactionTime",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
